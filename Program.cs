@@ -9,18 +9,19 @@ namespace JapaBookmarksDateViewer
     class Program
     {
         static string name = "Japa's Bookmark Date Viewer";
-        static int current_version = 1;
+        static string current_version = "1.1";
         static string window_title = $"{Program.name} v{current_version} by japa4551";
+
+        static string executable_directory = System.AppContext.BaseDirectory;
 
         static void Main(string[] input_file_array)
         {
             Console.Title = $"{window_title} - Awaiting User...";
             // file_array can either be from Terminal/Console or Drag-and-Drop operation
 
-            string executable = System.Reflection.Assembly.GetExecutingAssembly().Location;
-            string executable_directory = System.IO.Path.GetDirectoryName(executable);
+            //Console.WriteLine(Program.executable_directory);
 
-            string[] exec_folder_html_file_array = Directory.GetFiles(executable_directory, "*.html", SearchOption.TopDirectoryOnly);
+            string[] exec_folder_html_file_array = Directory.GetFiles(Program.executable_directory, "*.html", SearchOption.TopDirectoryOnly);
 
             List<string> html_file_list = new List<string>();
 
@@ -100,9 +101,6 @@ namespace JapaBookmarksDateViewer
         static void Read_HTML(string input_file_path)
         {
             string input_file_name = Path.GetFileName(input_file_path);
-
-            string exe_path = System.Reflection.Assembly.GetExecutingAssembly().Location;
-            string exe_directory = System.IO.Path.GetDirectoryName(exe_path);
            
             var document = new HtmlDocument();
 
@@ -122,7 +120,7 @@ namespace JapaBookmarksDateViewer
                     lines.Add($"Date Added: {Convert_UNIX_To_UTC(node.GetAttributeValue<int>("ADD_DATE", 0))}\n");
                 }
                 
-                File.WriteAllLines($"{exe_directory}\\{input_file_name}_output.txt", lines);
+                File.WriteAllLines($"{Program.executable_directory}\\{input_file_name}_output.txt", lines);
 
                 Console.WriteLine($"Success! Saved output as {input_file_name}_output.txt");
             }
