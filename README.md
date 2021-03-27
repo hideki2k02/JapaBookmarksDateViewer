@@ -1,7 +1,7 @@
 # JapaBookmarksDateViewer
 
-## Requieres .NET Core 5.0
-## Program uses HtmlAgilityPack v 1.11.32 by zzzprojects
+## Needs .NET Core 5.0
+## Program uses [HtmlAgilityPack v 1.11.32 by zzzprojects](https://html-agility-pack.net/)
 
  A simple C# tool built to View the Date of an Bookmarks Export.
 
