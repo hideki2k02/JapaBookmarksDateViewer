@@ -38,7 +38,13 @@ In case you dont know how to export your Bookmarks as HTML, check [this page](ht
 - You can also use multiple HTML files by placing them in the Program's Folder or by running the program on Terminal with multiple parameters (Program.exe file1.html file2.html)
 
 ## Random facts
-- The oldest turtle alive today is known as "Jonathan" and it was hatched in 1832
+- The oldest turtle alive today is known as ["Jonathan"](https://en.wikipedia.org/wiki/Jonathan_(tortoise)) and it was hatched in 1832
+
+- [2b2t](https://en.wikipedia.org/wiki/2b2t) is the oldest known Anarchy server in [Minecraft](https://en.wikipedia.org/wiki/Minecraft)
+
+- However [2b2t](https://en.wikipedia.org/wiki/2b2t) is not the oldest server in [Minecraft](https://en.wikipedia.org/wiki/Minecraft). The oldest is [MinecraftOnline](https://minecraftonline.com/) launched in August 4, 2010
+
+- However [Nerd.nu](https://nerd.nu/) claims it was launched in June 10, 2009. Pretty much one year before [MinecraftOnline](https://minecraftonline.com/) 
 
 - Previously before release, you had to manually enter the Input file's name (with extension) and path to make it work. Also if any data on the Input was incorrect, the program would crash
 
