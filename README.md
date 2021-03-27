@@ -1,4 +1,7 @@
 # JapaBookmarksDateViewer
+
+## Requieres .NET Core 5.0
+
  A simple C# tool built to View the Date of an Bookmarks Export.
 
  This program was originally on Japa's Unified Test Program v4 (My Test Program as you noticed)
