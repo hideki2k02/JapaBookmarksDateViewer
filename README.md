@@ -8,6 +8,10 @@
  This program was originally on Japa's Unified Test Program v4 (My Test Toolkit)
 
  Then i decided to rewrite it since the code was pretty garbage, then post it here (Open-Source)
+ 
+ ## Screenshot of what the program does
+![image](https://user-images.githubusercontent.com/5614680/112727832-1383a300-8f03-11eb-9b44-160c580b5edf.png)
+
 
 ## Why you should use this program
 - This program should be used (even if only once) if you are trying to figure out precisely when something was added to your bookmark
@@ -39,3 +43,6 @@ In case you dont know how to export your Bookmarks as HTML, check [this page](ht
 - The program also was one file at the time before the rework
 
 - I don't know how to make GitHub pages properly, so it will contain literally everything of this project (including Debug Builds)
+
+- Some interesting things can happen if the program reads an file that its not meant to read
+![image](https://user-images.githubusercontent.com/5614680/112727762-cbfd1700-8f02-11eb-9a5b-0834e4dfe576.png)
