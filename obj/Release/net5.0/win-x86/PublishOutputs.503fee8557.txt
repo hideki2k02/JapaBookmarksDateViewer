@@ -1,0 +1,2 @@
+C:\Users\japa4551\Documents\Codes\GitHub\JapaBookmarksDateViewer\bin\Release\net5.0\win-x86\publish\JapaBookmarksDateViewer.pdb
+C:\Users\japa4551\Documents\Codes\GitHub\JapaBookmarksDateViewer\bin\Release\net5.0\win-x86\publish\JapaBookmarksDateViewer.exe
