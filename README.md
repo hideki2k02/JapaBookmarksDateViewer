@@ -1,6 +1,6 @@
 # JapaBookmarksDateViewer
 
-## Needs .NET Core 5.0
+## Needs [.NET Core 5.0](https://dotnet.microsoft.com/download)
 ## Program uses [HtmlAgilityPack v 1.11.32 by zzzprojects](https://html-agility-pack.net/)
 
  A simple C# tool built to View the Date of an Bookmarks Export.
@@ -14,9 +14,9 @@
 
 
 ## Why you should use this program
-- This program should be used (even if only once) if you are trying to figure out precisely when something was added to your bookmark
+- This program will be used (even if only once) if you are trying to figure out precisely when something was added to your bookmark
 
-- Chromium Browsers (like Chrome and Brave; so far i've only tested in Chromium Browsers) save the Bookmark's date as a [UNIX Time](https://en.wikipedia.org/wiki/Unix_time) but for some reason the End-User cant access it normally if he doesnt have the knowledge to do so.
+- Chromium Browsers (like Chrome, Edge and Brave; so far i've only tested on those) save the Bookmark's date as a [UNIX Time](https://en.wikipedia.org/wiki/Unix_time) but for some reason the End-User cant access it normally if he doesnt have the knowledge to do so.
 
 - This program as previously stated, will help you to find this pesky little [UNIX Time](https://en.wikipedia.org/wiki/Unix_time) and convert it to [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time).
 
@@ -27,6 +27,8 @@ Its easy as 1, 2, 3. Just follow the instructions below
 
 In case you dont know how to export your Bookmarks as HTML, check [this page](https://www.wikihow.com/Export-Bookmarks-from-Chrome)
 
+- Install [.NET Core 5.0](https://dotnet.microsoft.com/download) if its not installed
+
 - Download the pre-built program on the [Releases page](https://github.com/japa4551/JapaBookmarksDateViewer/releases) (You can also build it yourself if you want to or if there is no version for your current system)
 
 - Drag and drop the Exported HTML in the Program's executable (or just leave a HTML file in the same place as the Executable) then launch the program
@@ -36,11 +38,11 @@ In case you dont know how to export your Bookmarks as HTML, check [this page](ht
 - You can also use multiple HTML files by placing them in the Program's Folder or by running the program on Terminal with multiple parameters (Program.exe file1.html file2.html)
 
 ## Random facts
-- Previously before release, you had to manually enter the Input file's name (with extension) and path to make it work
+- The oldest turtle alive today is known as "Jonathan" and it was hatched in 1832
 
-- If any data on the Input was incorrect, the program would crash
+- Previously before release, you had to manually enter the Input file's name (with extension) and path to make it work. Also if any data on the Input was incorrect, the program would crash
 
-- The program also was one file at the time before the rework
+- The program also supported one file at the time before the rework
 
 - I don't know how to make GitHub pages properly, so it will contain literally everything of this project (including Debug Builds)
 
